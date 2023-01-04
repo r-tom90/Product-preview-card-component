@@ -15,14 +15,21 @@ html {
 }
 
 body {
+  /* added lines 19-22 to center card in body */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(30, 38%, 92%);
   /* text-align: center; */
 }
 
 .card {
-  /* display: flex;
+  /* uncommented lines 30-32 to turn into flex container */
+  display: flex;
   align-items: center;
-  justify-content: space-between; */
+  justify-content: space-between;
   height: 500px;
   width: 600px;
   margin: 50px auto;
@@ -32,7 +39,7 @@ body {
 }
 
 .product-image {
-  float: left;
+  /* float: left; */
   width: 325px;
   height: 500px;
 }
@@ -44,7 +51,7 @@ body {
 }
 
 .product-info {
-  float: left;
+  /* float: left; */
   width: 275px;
   height: 500px;
   border-radius: 0 15px 15px 0;
@@ -82,14 +89,14 @@ p {
   height: 200px;
   width: 275px;
   margin-top: 1rem;
-  position: relative;
+  /* position: relative; */
   /* display: inline-block; */
   margin: 10% 10%;
 }
 
 .product-price-btn p {
   display: inline-block;
-  position: absolute;
+  /* position: absolute; */
   top: 0.25rem;
   left: 25%;
   /* height: 50px; */
