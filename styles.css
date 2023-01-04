@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+/* CSS for Coding Submission */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  /* text-align: center; */
+}
+
+.card {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  height: 500px;
+  width: 600px;
+  margin: 50px auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  float: left;
+  width: 325px;
+  height: 500px;
+}
+
+.product-image img {
+  width: 325px;
+  height: 500px;
+  border-radius: 15px 0 0 15px;
+}
+
+.product-info {
+  float: left;
+  width: 275px;
+  height: 500px;
+  border-radius: 0 15px 15px 0;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.product-text {
+  height: 300px;
+  width: 275px;
+  margin: 10% 7.5%;
+}
+
+.type {
+  font-size: 1rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.product-text h1 {
+  /* padding-top: 52px; */
+  font-family: "Fraunces", sans-serif;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Monteserrat", sans-serif;
+  font-size: 1rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.075rem;
+  line-height: 1.75rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.product-price-btn {
+  height: 200px;
+  width: 275px;
+  margin-top: 1rem;
+  position: relative;
+  /* display: inline-block; */
+  margin: 10% 10%;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  top: 0.25rem;
+  left: 25%;
+  /* height: 50px; */
+  font-family: "Monteserrat", sans-serif;
+  margin: 0 0 0 20%;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+span {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.button-text {
+  color: hsl(0, 0%, 100%);
+}
+
+button {
+  /* float: right; */
+  display: inline-block;
+  height: 50px;
+  width: 220px;
+  /* margin: 0 40px 0 16px; */
+  top: 0;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: hsl(158, 36%, 15%);
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: hsl(158, 36%, 30%);
+}
+
+i {
+  margin-right: 5px;
+}
